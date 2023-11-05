@@ -1,11 +1,11 @@
 server:
-  port: 9192
+  port: 8080
 
 spring:
   datasource:
-    username: root
-    password: Attherate@123
-    url: jdbc:mysql://localhost:3306/reddy
+    username: admin
+    password: RameshRamesh
+    url: jdbc:mysql://ramesh.cza0owzvgmgd.ap-south-1.rds.amazonaws.com:3306/Reddy
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
